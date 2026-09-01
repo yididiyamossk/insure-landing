@@ -152,7 +152,6 @@ h1, h2, h3, h4 {
 }
 .hero__image {
   order: -1;
-  border-radius: 8px;
   overflow: hidden;
 }
 .hero__image img {
@@ -339,7 +338,7 @@ h1, h2, h3, h4 {
   .hamburger { display: none; }
 
   .hero__inner {
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     gap: 60px;
   }
